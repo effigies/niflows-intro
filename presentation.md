@@ -300,7 +300,7 @@ nfm init coastalcoding-example --language python
 This produces the following basic directory tree:
 
 ```
-coastalcoding-example
+niflow-coastalcoding-example
 ├── README.md
 ├── doc
 │   └── README.md
@@ -329,7 +329,13 @@ coastalcoding-example
 `nfm install` isn't implemented, yet. For now, we'll use `pip` directly.
 
 ```Shell
-pip install -e coastalcoding-example/package
+pip install niflow-coastalcoding-example/package
+```
+
+## Test the stub workflow
+
+```Shell
+niflow-coastalcoding-example
 ```
 
 ]
