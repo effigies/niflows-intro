@@ -240,7 +240,7 @@ nfm test nipype1-examples
 env:
   base:
   - {image: ubuntu:16.04, pkg-manager: apt}
-  - {image: centos:7, pkg-manager: apt}
+  - {image: centos:7, pkg-manager: yum}
   fsl:
   - {version: 5.0.9}
   - {version: 5.0.10}
